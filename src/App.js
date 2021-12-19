@@ -35,7 +35,7 @@ class App extends React.Component {
     this.state = {data: []};
   }
   componentDidMount() {
-    const apiUrl = 'https://api.github.com/users/hacktivist123/repos'; 
+    const apiUrl = 'https://www.example.com/get-data'; 
     fetch(apiUrl)
         .then((response) => response.json())
         .then((data) => {
